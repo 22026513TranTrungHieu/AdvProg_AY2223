@@ -3,5 +3,11 @@
 
 std::string printGameOver(){
 	// TODO: Return the required string
-	return "";
+	cout << "Hello World!";
+	return printGameOver();
+}
+int main()
+{
+	printGameOver();
+	return 0;
 }
